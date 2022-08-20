@@ -1,0 +1,128 @@
+.popup-box {
+  position: fixed;
+  /* background: #00000050; */
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+ 
+.box {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  min-height: 70vh;
+  margin-top: calc(95vh - 85vh - 20px);
+  background: rgb(166, 178, 178);;
+  border-radius: 15px;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  /* overflow: auto; */
+}
+.close-icon {
+    cursor: pointer;
+    position: fixed;
+    right: calc(27% - 20px);
+    top: calc(102vh - 85vh - 33px);
+    /* background-color: red; */
+    color: white;
+    /* width: 25px;
+    height: 25px; */
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    /* border: 1px solid #999; */
+    font-size: 20px;
+  }
+
+
+
+
+.spec_artt{
+  padding-top: 2%;
+  padding-left: 50px;
+  min-height: 500px;
+  max-height: 500px;
+  border: none;
+      /* margin: 30px; */
+      display: block;
+      /* margin-right: 20px; */
+      outline: none;
+      height: 500px;
+      width: 90%;
+      margin: 1%;
+      background: #fff;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+      /* color: red; */
+}
+ .popp{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  /* background-color: #004E64; */
+ }
+ .poppp{
+  flex: 80%;
+  /* background-color: gold; */
+  justify-content: center;
+  display: flex;
+ }
+ .space_btn2{
+  flex: 20%;
+  display: flex;
+  /* background-color: rgb(33, 197, 0); */
+
+ }
+.Submit_divv{
+  flex: 50%;
+  /* background-color: rgb(198, 25, 9); */
+  display: flex;
+  height: 100%;
+  justify-content:right;
+  
+  
+}
+.Submit_btnn{
+  height: 100%;
+  justify-content: right;
+  display: flex;
+}
+.datess{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+background:#fff;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+color:#004E64; 
+left:  197px;
+top: -17px;
+}
+.Edit_divv{
+  flex: 50%;
+  justify-content: right;
+  display: flex;
+  /* background-color: gold; */
+}
+.Edit_btnn{
+  position: absolute;
+width: 200px;
+height: 50px;
+background:  #004E64;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+color: aliceblue;
+right: 15%;
+}
+.Edit_btnn p{
+  padding-top: 5%;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 100%;
+}

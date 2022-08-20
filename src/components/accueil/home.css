@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.home{ 
+    width: 100%;
+    position: relative;
+}
+.home_page {
+    flex-wrap: wrap;
+    height:100vh;
+    background-size: cover;
+    text-align: center;
+   background-image:url('./z.png') ;
+   
+}
+
+.titre{
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.img{
+    flex: 45%;
+    background-image: url('./../../img/confeplan_white.png');
+    background-size:0 50% 50%;
+    background-repeat: no-repeat;
+    image-rendering:auto;
+    justify-content: center;
+    margin-top: 0.6%;
+}
+
+.text_titre{
+    margin-top: 0%;
+    flex: 55%;
+    font-size: 90px;
+    color: white;
+    font-family:'Poppins';
+    font-style: italic;
+    font-weight: 900;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.paragrahe{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn_t{
+    margin-top: 15%;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+    width: 20%;
+    height:9%;
+    border-width: 3px;
+} 
+
+.btn_t p{
+    color: white;
+    position: relative;
+    margin-top: 3%;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+  .classarticle{
+      height: 130vh;
+      margin-top: 10%;
+      margin-bottom: 0%;
+  }
+
+
+
+  

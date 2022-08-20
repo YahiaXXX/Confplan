@@ -1,0 +1,148 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(221, 218, 218);
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    background-color: rgba(0, 78, 100, 0.26);
+    width: 40%;
+    height: 60%;
+    border-radius: 12px;
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titleCloseBtn {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn:hover{
+    color: black;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: crimson;
+}
+
+
+.gg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+}
+.notificationDiv{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5%;
+    min-height: 20%;
+    min-width: 80%;
+    max-width: 100%;
+    max-height: 20%;
+    border-radius: 15px;
+    align-items: center;
+}
+.icon{
+    /* background-color: red; */
+    max-width: 6%;
+    max-height:50%;
+    cursor: pointer;
+   
+}
+.icon :hover{
+    color: red;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.subject{
+    font-weight: bold;
+    text-overflow:clip;
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 50%;
+}
+
+
+
+.check{
+    cursor: pointer;
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    .check:hover{
+        color: green;
+    }
+
+.uncheck{
+    cursor: pointer;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .uncheck:hover{
+        color: red;
+    }
+
+    .icons{
+        margin: 2%;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+

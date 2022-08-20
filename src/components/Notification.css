@@ -1,0 +1,259 @@
+.popup{
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    
+  background-color: rgba(0,0,0,0.8);
+
+}
+h1{
+    color: white;
+}
+
+.popup-inner{
+   position: fixed;
+   top: 25%;
+   right: 30%;
+   min-width: 400px;
+   padding: 32px;
+   width: 100%;
+   max-width: 640px;
+   background: rgb(0, 78, 100);
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+
+}
+.popup-inner2{
+    position: fixed;
+    top: 25%;
+    right: 30%;
+    min-width: 400px;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background: white;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ 
+ }
+.close-btn{
+   margin-top: 20px;
+   width: 10%;
+   height:3vh ;
+
+
+}
+.close-btn:hover,
+.close-btn:focus{
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+.item-container{
+    
+    width: 100%;
+    margin: 20px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    
+}
+.icon{
+    flex: 1;
+}
+h4{
+    flex: 7;
+}
+
+.invitation-status{
+    display: flex;
+    flex: 1;
+}
+.accept-icon{
+    color: green;
+    flex: 2;
+
+}
+.refuse-icon{
+    color: red;
+    flex: 2;
+}
+.row_noti{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ background-color: #FFFDFD;
+ flex-direction: column;
+ border-radius: 8px;
+ min-height: 50px;
+ height: 6vh;
+ 
+ 
+ 
+
+}
+
+/* .input_noti{
+    width: 80%;
+    padding: 1rem 1rem 1rem 3.5rem;
+    background: rgba(0, 78, 100, 0.12);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #FFFDFD;
+
+
+
+} */
+
+.row_noti:hover{
+    cursor: pointer;
+    
+
+}
+
+/* .div_input{
+    width: 100%;
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+
+} */
+.div_items{
+    flex: 70%;
+    width: 100%;
+    margin-top: 5%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 40vh;
+
+    
+}
+
+.div_items::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+  .name_email{
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex: 60%;
+  }
+  .name_email{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+  .name{
+      flex:40%;
+      font-size: 17px;
+    
+  }
+  .email{
+     flex: 60%;
+     font-size: 15px;
+  }
+  .categories{
+      flex: 40%;
+      font-size: 13px;
+      
+      
+  }
+
+  .clicked{
+       opacity: 0.1; 
+       pointer-events: none;
+  }
+
+  .plus-reviewer-complet{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+
+  }
+  .plus-reviewer{
+    color: white;
+    height: 7vh;
+    font-weight: bold;
+    width: 10%;
+  }
+  .xx{
+ font-size: 10px;
+ cursor: pointer;
+
+  }
+  .xx:hover{
+    color: #000;
+
+
+  
+  
+
+  }
+
+
+  .rapport-reviewers{
+    max-height: 20vh;
+    min-height: 20vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  
+  width: 100%;
+  }
+  .rapport-reviewer{
+    font-weight: bold;
+    text-decoration: underline;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+  .rapport-reviewer p{
+    cursor: pointer;
+  }
+  
+  .txt-rapport-pop h1{
+    color:rgb(0, 78, 100,0.8) ;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 100%;
+   
+  }
+  .txt-rapport-pop{
+    margin-bottom: 10px;
+  }
+  .choose-rev{
+    font-weight: bold;
+  }

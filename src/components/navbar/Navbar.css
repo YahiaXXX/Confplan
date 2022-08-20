@@ -1,0 +1,50 @@
+.navbar{
+    padding: 35px;
+    left: 0%;
+    height: 50px;
+    width: 100%;;
+    z-index: 9;
+    margin-bottom: 7%;
+    position: sticky;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.navbar_list{
+    margin-top: 2%;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content:center;
+    width: 100%;
+    text-align: center;
+    
+}    
+
+.list_item{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 0 20px;
+    margin:0 5px ;
+    text-decoration: none;
+    opacity: 1;
+    color: white;
+    transition: 0.1s;  
+
+}
+
+.navbar_list :hover{
+    opacity: 0.8;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    border-style:none;
+}
+
+.link{
+    text-decoration: none;
+}

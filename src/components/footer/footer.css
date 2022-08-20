@@ -1,0 +1,69 @@
+.Footer{
+    background: linear-gradient(245.89deg, rgba(67, 247, 106, 0.9) -35.07%, #7AE582 -35.07%, rgba(0, 78, 100, 0.91) 48.06%);
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.footer_about_us{
+    padding: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight: 500;
+    color: white;
+}
+
+.container_f{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.logo{
+    flex: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo img {
+    margin-top: 5%;
+    height:70% ;
+    width: 50%;
+}
+
+.description{
+    padding: 1%;
+    flex: 50%;
+    height: 100%;
+    text-align: center;
+    justify-items: center;
+}
+
+.description h3{
+    text-align: center;
+    color: white;
+}
+
+.description h6{
+    text-align: center;
+    color: white;
+}
+
+.description h6 ul {
+    list-style-type: none;
+}
+
+.footer_l{
+    flex: 45%;
+}
+
+.footer_r{
+    flex: 55%;
+}

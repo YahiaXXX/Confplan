@@ -1,0 +1,102 @@
+.popup-boxx {
+    position: fixed;
+    background-color: rgb(221, 218, 218);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+   
+  .boxx {
+    position: relative;
+    background-color: rgba(0, 78, 100, 0.26);
+  width: 30%;
+  height: 60%;
+  margin-top: calc(100vh - 85vh - 20px);
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 25px;
+}
+  .titleCloseBtn {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn:hover{
+    color: black;
+}
+
+.editt{
+    /* background-color: aqua; */
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.editt p{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-style: italic;
+  text-shadow: 1px 1px 2px  gray;
+}
+.change{
+    padding-top: 4px;
+    flex: 16.5%;
+    margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.change input{
+    border: none;
+    margin: 1%;
+    display: block;
+    padding-left: 3%;
+    outline: none;
+    height: 5vh;
+    width: 80%;
+    background: rgba(221, 230, 232, 0.825);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+.edit_btn{
+    position: absolute;
+    width: 280px;
+    height: 52px;
+    background: rgba(0, 78, 100, 0.92);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+    margin-top: 5%;
+
+}
+
+.inp2 {
+  padding-left: 50px;
+      border: none;
+  /* margin: 30px; */
+  display: block;
+  /* margin-right: 20px; */
+  outline: none;
+  height: 65px;
+  width: 35%;
+  margin: 1%;
+  background: rgba(0, 78, 100, 0.06);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}

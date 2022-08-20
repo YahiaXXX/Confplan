@@ -1,0 +1,23 @@
+.main{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+ }
+.main_info{
+    flex: 80%;
+    background-color: aqua;
+}
+.mian_art{
+    flex: 20%;
+    display: flex;
+}
+.art_down{
+    flex: 50%;
+    background-color: yellow;
+}
+.art_etat{
+    flex: 50%;
+    background-color: brown;
+}
